@@ -1,0 +1,40 @@
+- name: Frontend
+  level: 4
+  skills:
+  - name: HTML
+    level: 5
+  - name: CSS
+    level: 5
+
+- name: Backend
+  level: 4
+  skills:
+  - name: Python
+    level: 5
+  - name: .NET
+    level: 5
+
+- name: Database
+  level: 4
+  skills:
+  - name: SQL
+    level: 5
+  - name: MongoDB
+    level: 5
+
+- name: DevOps
+  level: 4
+  skills:
+  - name: Docker
+    level: 5
+  - name: Kubernetes
+    level: 5
+
+- name: Cloud
+  level: 4
+  skills:
+  - name: AWS
+    level: 5
+  - name: Azure
+    level: 5
+
