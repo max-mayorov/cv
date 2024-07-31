@@ -1,0 +1,14 @@
+---
+const { skill } = Astro.props;
+---
+
+<div class="skill">
+  {
+    skill.map((x: { name?: string; level?: string }) => (
+      <div>
+        {x.name}
+        {x.level}
+      </div>
+    ))
+  }
+</div>

@@ -1,0 +1,11 @@
+---
+const { name, title, start, end, description } = Astro.props;
+---
+
+<div class="experienceItem">
+  <h3>{title}</h3>
+  <p>{name}, {start} - {end || "present"}</p>
+  <p>
+    {description}
+  </p>
+</div>
