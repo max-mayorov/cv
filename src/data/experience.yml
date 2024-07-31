@@ -2,152 +2,148 @@
   title: Senior Full Stack Developer
   start: 2023
   description: >
-    Implementing a new website where Crefius customers can manage their loans.
-    Technical lead for the team to implement a website with NextJS app router and Directus Cloud as CMS.
-    Integration with midlayer API. 
-    Performance optimization of the project in order to decrease the load on the API and improve the user experience.
-    Implementing load testing with K6.
+    Spearheaded the development of a new website enabling Crefius customers to efficiently manage their loans. 
+    Led a team to implement a robust website using NextJS app router and Directus Cloud as CMS. 
+    Integrated with midlayer API, optimized performance to reduce API load and enhance user experience, and conducted load testing using K6.
   challenges: 
-    - Implementing a new website with a new technology stack.
-    - Performance optimization of the project.
-    - Implementing load testing with K6.
+    - Implementing a website with a cutting-edge technology stack.
+    - Optimizing performance to enhance user experience.
+    - Conducting comprehensive load testing with K6.
 
 - name: Biobest
   title: Technical Lead, Full Stack Developer
   start: 2023
   description: >
-    Implementing a new website for core business of the client. 
-    Technical lead for the team to implement a website with NextJS, React and Directus Cloud as CMS.
-    Integration with SAP and Azure Storage for product data. Integration with Auth0 and implementing SSO with the webshop.
-    Setting up Devops and infrastructure.
+    Directed the creation of a core business website for the client using NextJS, React, and Directus Cloud CMS. 
+    Integrated SAP and Azure Storage for product data, incorporated Auth0 for SSO with the webshop, and established DevOps and infrastructure.
   challenges:
-    - Integration with SAP and Azure Storage.
-    - Performance optimization of the website, Netlify package optimization
-    - Implementing SSO with the webshop.
-
+    - Seamlessly integrating with SAP and Azure Storage.
+    - Optimizing website performance and Netlify package.
+    - Implementing secure SSO with the webshop.
 
 - name: UAntwerpen
   title: Technical Lead, Full Stack Developer
   start: 2022
   end: 2024
   description: >
-    Leading the team to the implementation of 2 campaign websites for the university with NextJS and Directus Cloud.
-    Implementation of multi-head site and permissions system in Directus.
-    Setting up Devops and infrastructure.
+    Led the team to develop two campaign websites for the university using NextJS and Directus Cloud. 
+    Implemented a multi-head site and a comprehensive permissions system in Directus, while setting up DevOps and infrastructure.
   challenges:
-    - Setting a multi-head site with Directus.
-    - Implementing a permissions system in Directus.
+    - Establishing a multi-head site with Directus.
+    - Developing a robust permissions system in Directus.
 
 - name: Stellantis (Opel Finance)
   title: Senior Full Stack Developer
   start: 2022
   end: 2024
   description: >
-    Implementing a dealear dashboard for Opel Finance (NextJS), integration with Auth0.
-    Optimizing the database for performance.
-    Creating a Power BI reporting for the Opel Finance.
-    Maintaining and implementing data import and processing application in .NET Core. 
-    Implementing of a Power BI data transformations and dashboard for the client.
+    Developed a dealer dashboard for Opel Finance with NextJS, integrated Auth0, and optimized the database for performance. 
+    Created Power BI reports and maintained data import and processing applications in .NET Core.
   challenges:
-    - Optimizing the database for performance.
-    - Implementing a Power BI reporting for the client.
+    - Optimizing database performance.
+    - Creating comprehensive Power BI reports.
 
 - name: Cevora
   title: Technical Lead, Full Stack Developer
   start: 2019
   end: 2024
   description: >
-    Implementing a new website for core business of the client. 
-    Tech lead for team to build a headless Sitecore website with cutting-edge technologies like Sitecore JSS, React and .NET.
-    Configuring SOLR search engine for the website.
-    Integration with CRM and other systems.
-    Setting up Devops and infrastructure for Sitecore in Azure.
-    Maintaining the website, upgrading necessary modules (Sitecore) and implementing new features.
+    Led the team to build a headless Sitecore website using Sitecore JSS, React, and .NET. 
+    Configured SOLR search engine, integrated with CRM and other systems, and set up DevOps and infrastructure in Azure.
+    Maintained and upgraded necessary Sitecore modules, implementing new features.
   challenges: 
-    - Integration with CRM and other systems
-    - Implementing Sitecore JSS at the early stage of the product
-    - Search optimization in SOLR
-    - Setting up Devops and infrastructure for Sitecore in Azure.
+    - Integrating with CRM and various systems.
+    - Implementing Sitecore JSS at an early product stage.
+    - Optimizing search with SOLR.
+    - Establishing DevOps and infrastructure in Azure.
 
 - name: Defensie
-  title: Senior DevOps engineer
+  title: Senior DevOps Engineer
   start: 2019
   end: 2021
   description: >
-    Architecture and infrastructure for the website. 
-    Build and deploy with Azure Devops, Azure Cloud and Terraform as declarative infrastructure approach and Sonarqube as the code quality pipeline.
+    Designed and managed the architecture and infrastructure for the website. 
+    Implemented build and deployment processes using Azure DevOps, Azure Cloud, Terraform for declarative infrastructure, and Sonarqube for code quality assurance.
   challenges:
-    - Learning new technologies and implementing them in the project.
+    - Adopting and implementing new technologies.
 
 - name: Sporty
   title: Functional Analyst, Senior Backend Developer
   start: 2017
   end: 2018
   description: >
-    Designing and implementing highly scalable and performant reservation system for the children summer activities. 
-    Implementing back-end API in .NET Core, front-end in React and database in Azure SQL.
+    Designed and implemented a highly scalable and performant reservation system for children's summer activities. 
+    Developed backend API in .NET Core, frontend in React, and database in Azure SQL.
   challenges:
-    - Designing a scalable and performant system.
+    - Designing a scalable and high-performance system.
 
-- name: Belgian railroads (NMBS)
+- name: Belgian Railroads (NMBS)
   title: Senior Sitecore Developer
   start: 2017
   end: 2018
   description: >
-    Reinforce current Sitecore team. Implementing functionality for new public website according to Helix guidelines in an Agile team.
+    Enhanced the Sitecore team to implement new functionalities for the public website following Helix guidelines within an Agile framework.
   challenges: 
-    - Integrating with existing team and project.
+    - Integrating seamlessly with the existing team and project.
 
 - name: Boondoggle
   title: Technical Lead, Senior Full Stack Developer
   start: 2012
-  end: 
   description: >
-    Tech lead for implementing and maintaining multi-site Sitecore websites for international brands, 
-    such as Chivas, Iglo, but also for Delhaize.
-    Implementing campaigns and custom pages in Sitecore websites.
-    Maintaining internal CRM and time tracking software.
+    Led the implementation and maintenance of multi-site Sitecore websites for international brands like Chivas and Iglo, and Delhaize. 
+    Developed campaigns and custom pages, and maintained internal CRM and time tracking software.
+  challenges:
+    - Managing multi-site implementations for international brands.
+    - Customizing Sitecore functionalities to meet diverse client needs.
 
-
-- name: EVI banking
+- name: EVI Banking
   title: Senior Backend Developer
   start: 2015
   end: 2016
   description: >
-    Integration between website and banking software. Developing a middle layer between website front-end and banking back-end. Implementing Sitecore pages and modules for the website.
+    Developed an integration between the website and banking software, creating a middle layer between the frontend and backend. 
+    Implemented Sitecore pages and modules for the website.
+  challenges:
+    - Bridging frontend and backend with a robust middle layer.
 
 - name: Rabobank International
   title: Senior Backend Developer
   start: 2012
   end: 2015
   description: >
-    Marketing Database project. Analysing customer requirement and implementing the changes in the database. Data analysis and reporting. Implementing integration with Selligent campaigning software. Implementing ETL layer between banking software and marketing tools. Incidents investigation and impact analysis.
+    Led the Marketing Database project, analyzing customer requirements, implementing database changes, and integrating with Selligent campaigning software. 
+    Developed an ETL layer between banking software and marketing tools, conducting incident investigation and impact analysis.
+  challenges:
+    - Implementing effective data analysis and reporting.
+    - Integrating marketing tools with banking software.
 
 - name: Sibev
   title: Technical Lead
   start: 2017
   end: 2018
   description: >
-    Implemented software to automate the process of fraud detection for telecom operators.
+    Developed software to automate fraud detection processes for telecom operators.
   challenges: 
-    - Understanding the fraud detection process and customer requirements.
-    
-  
+    - Understanding and automating the fraud detection process.
+
 - name: Pluritech
   title: Technical Lead
   start: 2005
   end: 2012
   description: >
-    Freelance web and database developer in Moscow, Russia. 
-    Moved to Belgium office in 2007 to take position of a development lead, leading the development of web and database applications for Pluritech. Later became tech lead, managing the development and deployment of in-house CMS and other projects. 
-    Strategic planning of development of in-house projects, leading group of freelance developers.
-    Developing web applicationa and leading freelance developers.
-  
+    Worked as a freelance web and database developer in Moscow before moving to Belgium to lead development of web and database applications. 
+    Managed the development and deployment of in-house CMS, strategized project development, and led a team of freelance developers.
+  challenges:
+    - Leading and managing development teams across regions.
+    - Strategizing and executing in-house project development.
 
 - name: Fistech
   title: Head of Customer Support
   start: 2002
   end: 2005
   description: >
-    Database software developer in Fistech (Moscow) on widely distributed customer management application for Nornikel.
-    Analyzing customer requirements and support claims, developing CRM software, later a head of customer support department.
+    Developed a widely distributed customer management application for Nornikel, progressing to Head of Customer Support. 
+    Analyzed customer requirements and support claims, and developed CRM software.
+  challenges:
+    - Leading customer support and software development.
+    - Analyzing and fulfilling customer requirements effectively.

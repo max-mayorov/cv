@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "generate-pdf": "node generate-pdf.js",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
@@ -12,6 +13,7 @@
   "dependencies": {
     "@astrojs/check": "^0.8.2",
     "astro": "^4.12.2",
+    "puppeteer": "^22.15.0",
     "typescript": "^5.5.4"
   },
   "devDependencies": {
