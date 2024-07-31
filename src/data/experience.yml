@@ -1,87 +1,153 @@
+- name: Crefius
+  title: Senior Full Stack Developer
+  start: 2023
+  description: >
+    Implementing a new website where Crefius customers can manage their loans.
+    Technical lead for the team to implement a website with NextJS app router and Directus Cloud as CMS.
+    Integration with midlayer API. 
+    Performance optimization of the project in order to decrease the load on the API and improve the user experience.
+    Implementing load testing with K6.
+  challenges: 
+    - Implementing a new website with a new technology stack.
+    - Performance optimization of the project.
+    - Implementing load testing with K6.
+
 - name: Biobest
-  title: Tech lead
+  title: Technical Lead, Full Stack Developer
+  start: 2023
+  description: >
+    Implementing a new website for core business of the client. 
+    Technical lead for the team to implement a website with NextJS, React and Directus Cloud as CMS.
+    Integration with SAP and Azure Storage for product data. Integration with Auth0 and implementing SSO with the webshop.
+    Setting up Devops and infrastructure.
+  challenges:
+    - Integration with SAP and Azure Storage.
+    - Performance optimization of the website, Netlify package optimization
+    - Implementing SSO with the webshop.
+
 
 - name: UAntwerpen
-  title: Tech lead
+  title: Technical Lead, Full Stack Developer
+  start: 2022
+  end: 2024
+  description: >
+    Leading the team to the implementation of 2 campaign websites for the university with NextJS and Directus Cloud.
+    Implementation of multi-head site and permissions system in Directus.
+    Setting up Devops and infrastructure.
+  challenges:
+    - Setting a multi-head site with Directus.
+    - Implementing a permissions system in Directus.
 
 - name: Stellantis (Opel Finance)
-  title: Tech lead
+  title: Senior Full Stack Developer
+  start: 2022
+  end: 2024
+  description: >
+    Implementing a dealear dashboard for Opel Finance (NextJS), integration with Auth0.
+    Optimizing the database for performance.
+    Creating a Power BI reporting for the Opel Finance.
+    Maintaining and implementing data import and processing application in .NET Core. 
+    Implementing of a Power BI data transformations and dashboard for the client.
+  challenges:
+    - Optimizing the database for performance.
+    - Implementing a Power BI reporting for the client.
 
 - name: Cevora
-  title: Tech lead
+  title: Technical Lead, Full Stack Developer
   start: 2019
   end: 2024
   description: >
-    Implementing a new website for core business of the client. Tech lead for team to build a headless Sitecore website with cutting-edge technologies like Sitecore JSS, React and .NET Core.
+    Implementing a new website for core business of the client. 
+    Tech lead for team to build a headless Sitecore website with cutting-edge technologies like Sitecore JSS, React and .NET.
+    Configuring SOLR search engine for the website.
+    Integration with CRM and other systems.
+    Setting up Devops and infrastructure for Sitecore in Azure.
+    Maintaining the website, upgrading necessary modules (Sitecore) and implementing new features.
+  challenges: 
+    - Integration with CRM and other systems
+    - Implementing Sitecore JSS at the early stage of the product
+    - Search optimization in SOLR
+    - Setting up Devops and infrastructure for Sitecore in Azure.
 
 - name: Defensie
-  title: Tech lead
+  title: Senior DevOps engineer
   start: 2019
   end: 2021
   description: >
-    Architecture and infrastructure for the website. Build and deploy with Azure Devops, Azure Cloud and Terraform as declarative infrastructure approach.  Sonarqube as the code quality pipeline.
+    Architecture and infrastructure for the website. 
+    Build and deploy with Azure Devops, Azure Cloud and Terraform as declarative infrastructure approach and Sonarqube as the code quality pipeline.
+  challenges:
+    - Learning new technologies and implementing them in the project.
 
 - name: Sporty
-  title: Tech lead
+  title: Functional Analyst, Senior Backend Developer
   start: 2017
   end: 2018
   description: >
-    Designing and implementing highly scalable and performant reservation system for the children summer activities. Implementing React application, database and Umbraco CMS. Infrastructure in Microsoft Azure cloud services.
+    Designing and implementing highly scalable and performant reservation system for the children summer activities. 
+    Implementing back-end API in .NET Core, front-end in React and database in Azure SQL.
+  challenges:
+    - Designing a scalable and performant system.
 
 - name: Belgian railroads (NMBS)
-  title: Tech lead
+  title: Senior Sitecore Developer
   start: 2017
   end: 2018
   description: >
     Reinforce current Sitecore team. Implementing functionality for new public website according to Helix guidelines in an Agile team.
+  challenges: 
+    - Integrating with existing team and project.
 
 - name: Boondoggle
-  title: Tech lead
+  title: Technical Lead, Senior Full Stack Developer
   start: 2012
   end: 
   description: >
-    Tech lead for implementing and maintaining multi-site Sitecore websites for international brands, such as Chivas, Iglo, but also for Delhaize.
-    Implementing campaigns and custom pages in Sitecore website.
+    Tech lead for implementing and maintaining multi-site Sitecore websites for international brands, 
+    such as Chivas, Iglo, but also for Delhaize.
+    Implementing campaigns and custom pages in Sitecore websites.
+    Maintaining internal CRM and time tracking software.
+
 
 - name: EVI banking
-  title: Tech lead
+  title: Senior Backend Developer
   start: 2015
   end: 2016
   description: >
     Integration between website and banking software. Developing a middle layer between website front-end and banking back-end. Implementing Sitecore pages and modules for the website.
 
 - name: Rabobank International
-  title: Tech lead
+  title: Senior Backend Developer
   start: 2012
   end: 2015
   description: >
     Marketing Database project. Analysing customer requirement and implementing the changes in the database. Data analysis and reporting. Implementing integration with Selligent campaigning software. Implementing ETL layer between banking software and marketing tools. Incidents investigation and impact analysis.
 
 - name: Sibev
-  title: Tech lead
+  title: Technical Lead
   start: 2017
   end: 2018
   description: >
     Implemented software to automate the process of fraud detection for telecom operators.
-  tasks: >
-    Developed a system for detecting fraud in the telecommunications sector.
+  challenges: 
+    - Understanding the fraud detection process and customer requirements.
+    
   
 - name: Pluritech
-  title: Tech lead
+  title: Technical Lead
   start: 2005
   end: 2012
   description: >
     Freelance web and database developer in Moscow, Russia. 
     Moved to Belgium office in 2007 to take position of a development lead, leading the development of web and database applications for Pluritech. Later became tech lead, managing the development and deployment of in-house CMS and other projects. 
-  tasks: >
-    strategic planning of development of in-house projects, leading group of freelance developers.
-    web development, freelance developers lead.
+    Strategic planning of development of in-house projects, leading group of freelance developers.
+    Developing web applicationa and leading freelance developers.
+  
 
 - name: Fistech
-  title: Tech lead
+  title: Head of Customer Support
   start: 2002
   end: 2005
   description: >
     Database software developer in Fistech (Moscow) on widely distributed customer management application for Nornikel.
-  tasks: >
     Analyzing customer requirements and support claims, developing CRM software, later a head of customer support department.

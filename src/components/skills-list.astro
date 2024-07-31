@@ -1,10 +1,10 @@
 ---
-const { skill } = Astro.props;
+const { skills } = Astro.props;
 ---
 
 <div class="skill">
   {
-    skill.map((x: { name?: string; level?: string }) => (
+    skills.map((x: { name?: string; level?: string }) => (
       <div>
         {x.name}
         {x.level}

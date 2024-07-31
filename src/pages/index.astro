@@ -1,7 +1,7 @@
 ---
 import info from "../data/info.yml";
 import skills from "../data/skills.yml";
-import experience from "//data/experience.yml";
+import experience from "../data/experience.yml";
 
 import Skill from "../components/skill.astro";
 import Experience from "../components/experience.astro";
@@ -39,8 +39,8 @@ import Experience from "../components/experience.astro";
         <h2>Education</h2>
         <ul>
           <li>
-            <h3>Bachelor of Science in Computer Science</h3>
-            <p>University of Technology, 2014 - 2018</p>
+            <h3>Bachelor of Science in Computer Science, Cum Laude</h3>
+            <p>RUniversity of Technology, 2014 - 2018</p>
           </li>
         </ul>
       </section>
@@ -51,8 +51,10 @@ import Experience from "../components/experience.astro";
         </div>
         <section class="contact">
           <h2>Contact</h2>
-          <p>Email: john.doe@example.com</p>
-          <p>Phone: {info.phone}</p>
+          <p>
+            Email: <a href={`mailto:${info.email}`}>{info.email}</a>
+          </p>
+          <p>Phone: <a href={`tel:${info.phone}`}>{info.phone}</a></p>
         </section>
       </section>
     </div>

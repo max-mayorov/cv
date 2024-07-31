@@ -1,5 +1,5 @@
 ---
-const { name, title, start, end, description } = Astro.props;
+const { name, title, start, end, description, challenges } = Astro.props;
 ---
 
 <div class="experienceItem">
@@ -8,4 +8,15 @@ const { name, title, start, end, description } = Astro.props;
   <p>
     {description}
   </p>
+  {
+    challenges && (
+      <div class="challenges">
+        <ul>
+          {challenges.map((x: string) => (
+            <li>{x}</li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
 </div>

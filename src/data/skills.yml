@@ -1,40 +1,83 @@
 - name: Frontend
-  level: 4
   skills:
-  - name: HTML
+  - name: React
     level: 5
+  - name: Javascript
+    level: 5    
+  - name: HTML
+    level: 4
   - name: CSS
+    level: 4
+  - name: SCSS
+    level: 4
+  - name: Javascript
     level: 5
 
 - name: Backend
-  level: 4
   skills:
-  - name: Python
+  - name: NodeJS
+    level: 4
+  - name: NextJS
     level: 5
-  - name: .NET
+  - name: .NET Core, C#
+    level: 4
+  - name: TypeScript
+    level: 4
+  - name: Entity Framework
+    level: 4
+  - name: Python
+    level: 3
+
+- name: Cloud
+  skills:
+  - name: Azure
+    level: 5
+  - name: Cloudflare
+    level: 5
+  - name: Netlify, Vercel
+    level: 5
+  - name: AWS
+    level: 2
+  - name: Heroku
+    level: 1
+
+- name: Concepts
+  skills:
+  - name: SOLID
+    level: 5
+  - name: DDD (Domain Driven Design)
+    level: 2
+  - name: Microservices
+    level: 5
+  - name: Monolith
+    level: 5
+  - name: Serverless
+    level: 5
+  - name: JAMStack
+    level: 4
+  - name: Agile development
+    level: 4
+
+- name: Tools
+  skills:
+  - name: Git
+    level: 4
+  - name: Jira
+    level: 4
+  - name: VSCode
     level: 5
 
 - name: Database
-  level: 4
   skills:
-  - name: SQL
+  - name: SQL Server
     level: 5
   - name: MongoDB
-    level: 5
+    level: 3
 
 - name: DevOps
-  level: 4
   skills:
   - name: Docker
-    level: 5
+    level: 4
   - name: Kubernetes
-    level: 5
-
-- name: Cloud
-  level: 4
-  skills:
-  - name: AWS
-    level: 5
-  - name: Azure
-    level: 5
+    level: 2
 
