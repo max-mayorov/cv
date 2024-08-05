@@ -59,7 +59,7 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.3fr 0.7fr;
     grid-template-areas:
         "skills experience"
         "education education";
@@ -73,6 +73,10 @@ main {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education {
+    grid-column: 2 / -1;
 }
 
 .skills h2,
@@ -117,7 +121,7 @@ main {
 
     .header {
         grid-template-columns: 1fr;
-        grid-template-areas:
+        grid-template-areas
             "info"
             "photo";
         text-align: center;
