@@ -1,0 +1,130 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "info photo";
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e94560;
+    padding-bottom: 20px;
+}
+
+.contact-info {
+    grid-area: info;
+}
+
+.contact-info h1 {
+    margin-bottom: 10px;
+    color: #e94560;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+.motto {
+    font-style: italic;
+    color: #0f3460;
+}
+
+.photo {
+    grid-area: photo;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #e94560;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "skills experience"
+        "education education";
+    gap: 20px;
+}
+
+.skills,
+.experience,
+.education {
+    background: #16213e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2,
+.experience h2,
+.education h2 {
+    margin-bottom: 10px;
+    color: #e94560;
+}
+
+.skills ul,
+.experience ul,
+.education ul {
+    list-style-type: none;
+}
+
+.skills ul li,
+.experience ul li,
+.education ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #0f3460;
+}
+
+.skills ul li:last-child,
+.experience ul li:last-child,
+.education ul li:last-child {
+    border-bottom: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "experience"
+            "skills"
+            "education";
+    }
+
+    .header {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "info"
+            "photo";
+        text-align: center;
+    }
+
+    .photo img {
+        width: 80px;
+        height: 80px;
+    }
+}
