@@ -62,3 +62,55 @@ section ul li p {
     font-size: 1em;
     color: #777;
 }
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.skill {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skillProgress {
+    margin-top: 10px;
+}
+
+.skillProgress__bar {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.skillProgress__bar--5 {
+    width: 100%;
+    background-color: #4caf50;
+    /* Green */
+}
+
+.skillProgress__bar--4 {
+    width: 80%;
+    background-color: #8bc34a;
+    /* Light Green */
+}
+
+.skillProgress__bar--3 {
+    width: 60%;
+    background-color: #cddc39;
+    /* Lime */
+}
+
+.skillProgress__bar--2 {
+    width: 40%;
+    background-color: #ffeb3b;
+    /* Yellow */
+}
+
+.skillProgress__bar--1 {
+    width: 20%;
+    background-color: #ffc107;
+    /* Amber */
+}
