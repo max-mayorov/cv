@@ -5,12 +5,6 @@ const { name, skills } = Astro.props;
 ---
 
 <div class="skills">
-  {
-    skills.map((x: { name?: string; skills: any }) => (
-      <div class="skill">
-        {name}
-        <SkillsList skills={skills} />
-      </div>
-    ))
-  }
+  {name}
+  <SkillsList skills={skills} />
 </div>
