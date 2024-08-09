@@ -1,3 +1,14 @@
+- name: Biobest
+  title: Technical Lead, Full Stack Developer
+  start: 2023
+  description: >
+    Directed the creation of a core business website for the client using NextJS, React, and Directus Cloud CMS. 
+    Integrated SAP and Azure Storage for product data, incorporated Auth0 for SSO with the webshop, and established DevOps and infrastructure.
+  challenges:
+    - Seamlessly integrating with SAP and Azure Storage.
+    - Optimizing website performance and Netlify package.
+    - Implementing secure SSO with the webshop.
+
 - name: Crefius
   title: Senior Full Stack Developer
   start: 2023
@@ -9,17 +20,6 @@
     - Implementing a website with a cutting-edge technology stack.
     - Optimizing performance to enhance user experience.
     - Conducting comprehensive load testing with K6.
-
-- name: Biobest
-  title: Technical Lead, Full Stack Developer
-  start: 2023
-  description: >
-    Directed the creation of a core business website for the client using NextJS, React, and Directus Cloud CMS. 
-    Integrated SAP and Azure Storage for product data, incorporated Auth0 for SSO with the webshop, and established DevOps and infrastructure.
-  challenges:
-    - Seamlessly integrating with SAP and Azure Storage.
-    - Optimizing website performance and Netlify package.
-    - Implementing secure SSO with the webshop.
 
 - name: UAntwerpen
   title: Technical Lead, Full Stack Developer
