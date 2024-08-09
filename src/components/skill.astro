@@ -4,7 +4,7 @@ import SkillsList from "./skills-list.astro";
 const { name, skills } = Astro.props;
 ---
 
-<div class="skills">
-  {name}
+<div>
+  <h2>{name}</h2>
   <SkillsList skills={skills} />
 </div>

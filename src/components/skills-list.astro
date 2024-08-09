@@ -6,8 +6,9 @@ const { skills } = Astro.props;
   {
     skills.map((x: { name?: string; level?: string }) => (
       <div class={`skillProgress `}>
-        {x.name}
-        <div class={`skillProgress__bar skillProgress__bar--${x.level}`} />
+        <div class={`skillProgress__bar skillProgress__bar--${x.level}`}>
+          {x.name}
+        </div>
       </div>
     ))
   }

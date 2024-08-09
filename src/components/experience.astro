@@ -4,12 +4,13 @@ const { name, title, start, end, description, challenges } = Astro.props;
 
 <div class="experienceItem">
   <h3>{title}</h3>
-  <p>{name}, {start} - {end || "present"}</p>
+  <p ><span class="client">{name},</span> <span class="period">{start} - {end || "present"}</span></p>
   <p>
     {description}
   </p>
   {
     challenges && (
+      <h4>Challenges</h4>
       <div class="challenges">
         <ul>
           {challenges.map((x: string) => (

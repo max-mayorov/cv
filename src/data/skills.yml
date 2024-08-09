@@ -38,15 +38,18 @@
     level: 5
   - name: AWS
     level: 2
-  - name: Heroku
-    level: 1
+
+- name: Database
+  skills:
+  - name: SQL Server
+    level: 5
+  - name: MongoDB
+    level: 3
 
 - name: Concepts
   skills:
   - name: SOLID
     level: 5
-  - name: DDD (Domain Driven Design)
-    level: 2
   - name: Microservices
     level: 5
   - name: Monolith
@@ -66,13 +69,6 @@
     level: 4
   - name: VSCode
     level: 5
-
-- name: Database
-  skills:
-  - name: SQL Server
-    level: 5
-  - name: MongoDB
-    level: 3
 
 - name: DevOps
   skills:
