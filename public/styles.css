@@ -36,6 +36,32 @@ body {
     padding: 20px;
 }
 
+.pdf {
+    position: fixed;
+    top: 20px;
+    right: calc(50% - 600px + 20px);
+    background-color: var(--color-skill-bar-5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.pdf a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.pdf img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
 .header {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -227,5 +253,15 @@ main {
     .photo img {
         width: 80px;
         height: 80px;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+
+    .pdf {
+        display: none;
     }
 }
